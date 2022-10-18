@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script defer src="./script/index.js"></script>
     <title>Tarkov.Help</title>
 </head>
 <body>
@@ -74,7 +75,7 @@
                 <button class="info-button">Записаться на турнир</button>
             </div>
         </div>
-        <div>
+        <div class="margin-bottom">
         <p class="text-heder4 light margin-heder">Награда победителям</p>
                 <div class="flex-box">
                         <div class="grey-block size-block block-align">
@@ -91,14 +92,30 @@
                         </div>
                     
                 </div>
-                <div class="grey-block dop-block "> <p class="text-heder5 light dop-text dop-pading">+ дополнительные секретные призы победителям</p> </div>
+                <div class="accardion-dlock">
+                    <button id="accardion" class="grey-block dop-block accardion-button"> 
+                        <p class="text-heder5 light dop-text dop-pading">
+                        дополнительные секретные призы победителям</p> 
+                    </button>
+                    <div class="panel" id="revel">
+                        <ul class="list main-text grizzle accardion-marg">
+                            <li>Годовой запас самогона</li>
+                            <li>Пачку Ledx</li>
+                            <li>Осуждение со стороны новичков</li>
+                        </ul>
+                    </div>
+                </div>
                 <p class="text-heder4 light margin-heder">Спонсоры турнира</p>
-                <div class="grey-block size-block block-align">
+                <div class="grey-block size-block dop-pading sponsor-block">
                     <img class="avatar" src="./img/Pepa.png" alt="">
-                    <p class="text-heder5 green">pep1ch</p></p>
+                    <p class="text-heder5 green ">pep1ch</p>
                 </div>
             </div>
         </div>
-
+<div class="modal-areal">
+    <form class="modal"> 
+        <p class="text-heder2 green">Запись на турнир</p>
+    </form>
+</div>
 </body>
 </html>
