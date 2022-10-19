@@ -12,6 +12,7 @@
     padding: 0;
 }
 body {
+    font-size: 16px;
     background-color: #1E1E1E;
     font-family: 'Inter';
     font-style: normal;
@@ -274,7 +275,6 @@ body {
     min-width: 300px;
     height: auto;
     background-color: #1E1E1E;
-    width: 45%;
     border-radius: 10px;
 }
 .module-name-box{
@@ -287,7 +287,7 @@ body {
     width: 100%;
 }
 .form-modal{
-    margin: 20px 40px;
+    margin: 0 0 40px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -305,7 +305,7 @@ body {
     outline-offset: 0;
 }
 .input-size{
-    width: 100%;
+    width: 75%;
     margin: 12px;
     max-width: 400px;
 }
@@ -315,15 +315,24 @@ body {
 }
 .but-close{
     position: absolute;
-    /* margin-right: 20px; */
     right: 40px;
     left: 100%;
     width: 40px;
     height: 40px;
     border-radius: 20px;
 }
+.input-size::-webkit-input-placeholder {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #b3b3b3;
+}
+.textarea-height::-webkit-input-placeholder {
+    font-size: 18px;
+}
 .button1:hover,.info-button:hover{
     box-shadow: 0 0 4px 2px #00b285;
+    cursor: pointer;
 }
 @media (max-width: 1024px) {
     .container{
