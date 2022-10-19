@@ -18,7 +18,7 @@
                     </div>
                     <h1 class="text-heder1 green margin-heder">Турнир Tarkov.Help</h1>
                     <h2 class="text-heder2 white">Охота на новичков</br>Одиночки</h2>
-                    <button class="button1 botton-position button1-text">Записаться на турнир</button>
+                    <button class="button1 botton-position button1-text button">Записаться на турнир</button>
                 </div>
                 
                 <div class="heder-box img-box">
@@ -72,7 +72,7 @@
                     <p class="text-heder4 light">Локация:</p>
                     <p class="text-info white">Таможня</p>
                 </div>
-                <button class="info-button">Записаться на турнир</button>
+                <button class="info-button button">Записаться на турнир</button>
             </div>
         </div>
         <div class="margin-bottom">
@@ -106,17 +106,25 @@
                     </div>
                 </div>
                 <p class="text-heder4 light margin-heder">Спонсоры турнира</p>
-                <div class="grey-block size-block dop-pading sponsor-block">
-                    <img class="avatar" src="./img/Pepa.png" alt="">
+                <div class="grey-block size-block dop-pading sponsor-block" style="display: flex;">
+                    <img class="avatar" src="./img/Pepa.png" alt="ava" >
                     <p class="text-heder5 green ">pep1ch</p>
                 </div>
             </div>
         </div>
-<div class="modal-areal">
-    <form class="modal"> 
-        <p class="text-heder2 green">Запись на турнир</p>
-        <input type="text">
-    </form>
+<div class="modal-areal" id="closeArea">
+    <div class="modal"> 
+        <div class="module-name-box">
+            <p class="text-heder2 green full-width">Запись на турнир</p>
+            <!--<button class="but-close" id="close"></button>-->
+        </div>
+        <form class="form-modal" action="">
+        <input class="input-size input-castom" type="email" placeholder="Електронная почта">
+        <input class="input-size input-castom" type="text" placeholder="Твич аккаунт">
+        <textarea class="input-size textarea-height input-castom" name="coment" id="" cols="30" rows="10" placeholder="Комментарий"></textarea>
+        <button class="button1 botton-position button1-text " type="submit">Записаться на турнир</button>
+        </form>
+    </div>
 </div>
 </body>
 </html>
