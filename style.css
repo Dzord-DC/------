@@ -334,6 +334,7 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
   border: none;
+  cursor: pointer;
 }
 
 .accardion-button::before {
@@ -430,6 +431,7 @@ body {
   font-size: 18px;
   padding: 12px 20px;
   border-radius: 10px;
+  border: 1px solid;
 }
 
 .input-castom:active, :hover, :focus {
