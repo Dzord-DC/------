@@ -388,7 +388,7 @@ body {
 
 .modal {
   z-index: 1051;
-  min-width: 400px;
+  min-width: 300px;
   height: auto;
   background-color: #1E1E1E;
   width: 45%;
@@ -510,6 +510,9 @@ body {
   .flex-box {
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .logo {
+    width: 96%;
   }
 }
 /*# sourceMappingURL=style.css.map */
